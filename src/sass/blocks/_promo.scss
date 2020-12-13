@@ -1,13 +1,15 @@
 .promo{
     min-height: 650px;
-    padding: 21px 0 93px 0;
+    // padding: 21px 0 93px 0;
+    padding: 21px 0 168px 0;
+    // padding-top: 21px;
     // background-image: url(../img/bg/1578321340_22-71.jpg);
     // background-image: url(../img/bg/test3_bg.png);
     // background-image: url(../img/bg/test4_bg.png);
     background-image: url(../img/bg/test5_bg.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    //background-attachment: fixed;
     background-size: cover;
     background-color:#464646;
     &__wrapper {
@@ -33,7 +35,7 @@
         text-transform: uppercase;
     }
     &__icons {
-        margin-top: 33px;
+        margin-top: 5px;
         width: 425px;
         display: flex;
         justify-content: space-between;
@@ -53,7 +55,7 @@
          }
     }
      &__link {
-        margin-top: 16px;
+        margin-top: 15px;
         color: #ffffff;
         font-size: 16px;
         font-weight: 500;
