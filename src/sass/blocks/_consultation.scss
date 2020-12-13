@@ -1,0 +1,25 @@
+.consultation {
+    min-height: 800px;
+    //max-height: 680px;
+    // padding: 100px 0 92px 0;
+    padding-top: 50px;
+    background-image: url("../img/bg/fitness-consultation2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#464646;
+    &__wrapper{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-end;
+    }
+    &__descr {
+        margin-top: 5px;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+}

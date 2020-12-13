@@ -2,15 +2,8 @@
     // min-height: 470px;
     padding: 65px 0 78px 0;
     background-color: #f6f6f6;
-    &__title {
-        margin: 0 auto;
-        margin-bottom: 60px;
-        color: #0d0d0d;
-        font-size: 30px;
-        font-weight: 700;
-        text-align: center;
-    }
     &__wrapper {
+        margin-top: 60px;
         display: flex;
         justify-content: space-between;
         align-items:center;
